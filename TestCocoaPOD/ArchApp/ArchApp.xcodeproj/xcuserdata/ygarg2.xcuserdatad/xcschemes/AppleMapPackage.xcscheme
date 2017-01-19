@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "08404CB71E3095600081DB88"
-               BuildableName = "ArchFeatureKit.framework"
-               BlueprintName = "ArchFeatureKit"
-               ReferencedContainer = "container:ArchFeatureKit.xcodeproj">
+               BlueprintIdentifier = "08404D971E30D6960081DB88"
+               BuildableName = "AppleMapPackage.framework"
+               BlueprintName = "AppleMapPackage"
+               ReferencedContainer = "container:ArchApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "08404CC11E3095600081DB88"
-               BuildableName = "ArchFeatureKitTests.xctest"
-               BlueprintName = "ArchFeatureKitTests"
-               ReferencedContainer = "container:ArchFeatureKit.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "08404CB71E3095600081DB88"
-            BuildableName = "ArchFeatureKit.framework"
-            BlueprintName = "ArchFeatureKit"
-            ReferencedContainer = "container:ArchFeatureKit.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -64,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "08404CB71E3095600081DB88"
-            BuildableName = "ArchFeatureKit.framework"
-            BlueprintName = "ArchFeatureKit"
-            ReferencedContainer = "container:ArchFeatureKit.xcodeproj">
+            BlueprintIdentifier = "08404D971E30D6960081DB88"
+            BuildableName = "AppleMapPackage.framework"
+            BlueprintName = "AppleMapPackage"
+            ReferencedContainer = "container:ArchApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -82,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "08404CB71E3095600081DB88"
-            BuildableName = "ArchFeatureKit.framework"
-            BlueprintName = "ArchFeatureKit"
-            ReferencedContainer = "container:ArchFeatureKit.xcodeproj">
+            BlueprintIdentifier = "08404D971E30D6960081DB88"
+            BuildableName = "AppleMapPackage.framework"
+            BlueprintName = "AppleMapPackage"
+            ReferencedContainer = "container:ArchApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

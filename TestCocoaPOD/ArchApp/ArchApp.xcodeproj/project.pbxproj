@@ -13,6 +13,17 @@
 		08404C651E2E258E0081DB88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08404C641E2E258E0081DB88 /* Assets.xcassets */; };
 		08404C681E2E258E0081DB88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08404C661E2E258E0081DB88 /* LaunchScreen.storyboard */; };
 		08404C731E2E258E0081DB88 /* ArchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08404C721E2E258E0081DB88 /* ArchAppTests.swift */; };
+		08404D4B1E30D5A30081DB88 /* RestaurantLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08404D4A1E30D5A30081DB88 /* RestaurantLocator.swift */; };
+		08404DC31E30DCAA0081DB88 /* AutoNaviPackage.h in Headers */ = {isa = PBXBuildFile; fileRef = 08404DC21E30DCAA0081DB88 /* AutoNaviPackage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08404DCA1E30DCAA0081DB88 /* AutoNaviPackage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08404DC01E30DCAA0081DB88 /* AutoNaviPackage.framework */; };
+		08404DD11E30DCAA0081DB88 /* AutoNaviPackageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08404DD01E30DCAA0081DB88 /* AutoNaviPackageTests.swift */; };
+		08404DD51E30DCAA0081DB88 /* AutoNaviPackage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08404DC01E30DCAA0081DB88 /* AutoNaviPackage.framework */; };
+		08404DD61E30DCAA0081DB88 /* AutoNaviPackage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 08404DC01E30DCAA0081DB88 /* AutoNaviPackage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		08404DE51E30DCD90081DB88 /* AppleMapPackage.h in Headers */ = {isa = PBXBuildFile; fileRef = 08404DE41E30DCD90081DB88 /* AppleMapPackage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08404DEC1E30DCD90081DB88 /* AppleMapPackage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08404DE21E30DCD90081DB88 /* AppleMapPackage.framework */; };
+		08404DF31E30DCD90081DB88 /* AppleMapPackageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08404DF21E30DCD90081DB88 /* AppleMapPackageTests.swift */; };
+		08404DF71E30DCD90081DB88 /* AppleMapPackage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08404DE21E30DCD90081DB88 /* AppleMapPackage.framework */; };
+		08404DF81E30DCD90081DB88 /* AppleMapPackage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 08404DE21E30DCD90081DB88 /* AppleMapPackage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +48,64 @@
 			remoteGlobalIDString = 08404C911E2F76DA0081DB88;
 			remoteInfo = ArchFoundationKitTests;
 		};
-		08404CD71E3095730081DB88 /* PBXContainerItemProxy */ = {
+		08404DCB1E30DCAA0081DB88 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 08404CD21E3095730081DB88 /* ArchFeatureKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 08404CB81E3095600081DB88;
-			remoteInfo = ArchFeatureKit;
+			containerPortal = 08404C521E2E258E0081DB88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08404DBF1E30DCAA0081DB88;
+			remoteInfo = AutoNaviPackage;
 		};
-		08404CD91E3095730081DB88 /* PBXContainerItemProxy */ = {
+		08404DCD1E30DCAA0081DB88 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 08404CD21E3095730081DB88 /* ArchFeatureKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 08404CC21E3095600081DB88;
-			remoteInfo = ArchFeatureKitTests;
+			containerPortal = 08404C521E2E258E0081DB88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08404C591E2E258E0081DB88;
+			remoteInfo = ArchApp;
+		};
+		08404DD31E30DCAA0081DB88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08404C521E2E258E0081DB88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08404DBF1E30DCAA0081DB88;
+			remoteInfo = AutoNaviPackage;
+		};
+		08404DED1E30DCD90081DB88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08404C521E2E258E0081DB88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08404DE11E30DCD90081DB88;
+			remoteInfo = AppleMapPackage;
+		};
+		08404DEF1E30DCD90081DB88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08404C521E2E258E0081DB88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08404C591E2E258E0081DB88;
+			remoteInfo = ArchApp;
+		};
+		08404DF51E30DCD90081DB88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08404C521E2E258E0081DB88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08404DE11E30DCD90081DB88;
+			remoteInfo = AppleMapPackage;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		08404D671E30D5D50081DB88 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				08404DD61E30DCAA0081DB88 /* AutoNaviPackage.framework in Embed Frameworks */,
+				08404DF81E30DCD90081DB88 /* AppleMapPackage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		08404C5A1E2E258E0081DB88 /* ArchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,7 +119,19 @@
 		08404C721E2E258E0081DB88 /* ArchAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchAppTests.swift; sourceTree = "<group>"; };
 		08404C741E2E258E0081DB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08404CA51E3090BB0081DB88 /* ArchFoundationKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ArchFoundationKit.xcodeproj; path = ../ArchFoundationKit/ArchFoundationKit.xcodeproj; sourceTree = "<group>"; };
-		08404CD21E3095730081DB88 /* ArchFeatureKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ArchFeatureKit.xcodeproj; path = ../ArchFeatureKit/ArchFeatureKit.xcodeproj; sourceTree = "<group>"; };
+		08404D4A1E30D5A30081DB88 /* RestaurantLocator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantLocator.swift; sourceTree = "<group>"; };
+		08404DC01E30DCAA0081DB88 /* AutoNaviPackage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AutoNaviPackage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08404DC21E30DCAA0081DB88 /* AutoNaviPackage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoNaviPackage.h; sourceTree = "<group>"; };
+		08404DC41E30DCAA0081DB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08404DC91E30DCAA0081DB88 /* AutoNaviPackageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoNaviPackageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08404DD01E30DCAA0081DB88 /* AutoNaviPackageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoNaviPackageTests.swift; sourceTree = "<group>"; };
+		08404DD21E30DCAA0081DB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08404DE21E30DCD90081DB88 /* AppleMapPackage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppleMapPackage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08404DE41E30DCD90081DB88 /* AppleMapPackage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleMapPackage.h; sourceTree = "<group>"; };
+		08404DE61E30DCD90081DB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08404DEB1E30DCD90081DB88 /* AppleMapPackageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleMapPackageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08404DF21E30DCD90081DB88 /* AppleMapPackageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMapPackageTests.swift; sourceTree = "<group>"; };
+		08404DF41E30DCD90081DB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +139,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08404DD51E30DCAA0081DB88 /* AutoNaviPackage.framework in Frameworks */,
+				08404DF71E30DCD90081DB88 /* AppleMapPackage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,13 +151,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		08404DBC1E30DCAA0081DB88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08404DC61E30DCAA0081DB88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08404DCA1E30DCAA0081DB88 /* AutoNaviPackage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08404DDE1E30DCD90081DB88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08404DE81E30DCD90081DB88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08404DEC1E30DCD90081DB88 /* AppleMapPackage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		08404C511E2E258E0081DB88 = {
 			isa = PBXGroup;
 			children = (
-				08404CD21E3095730081DB88 /* ArchFeatureKit.xcodeproj */,
+				08404DBA1E30DC0C0081DB88 /* Packages */,
 				08404CA51E3090BB0081DB88 /* ArchFoundationKit.xcodeproj */,
 				08404C5C1E2E258E0081DB88 /* ArchApp */,
 				08404C711E2E258E0081DB88 /* ArchAppTests */,
@@ -102,6 +200,10 @@
 			children = (
 				08404C5A1E2E258E0081DB88 /* ArchApp.app */,
 				08404C6E1E2E258E0081DB88 /* ArchAppTests.xctest */,
+				08404DC01E30DCAA0081DB88 /* AutoNaviPackage.framework */,
+				08404DC91E30DCAA0081DB88 /* AutoNaviPackageTests.xctest */,
+				08404DE21E30DCD90081DB88 /* AppleMapPackage.framework */,
+				08404DEB1E30DCD90081DB88 /* AppleMapPackageTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +211,7 @@
 		08404C5C1E2E258E0081DB88 /* ArchApp */ = {
 			isa = PBXGroup;
 			children = (
+				08404D491E30D57C0081DB88 /* Map */,
 				08404C5D1E2E258E0081DB88 /* AppDelegate.swift */,
 				08404C5F1E2E258E0081DB88 /* ViewController.swift */,
 				08404C611E2E258E0081DB88 /* Main.storyboard */,
@@ -137,16 +240,85 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		08404CD31E3095730081DB88 /* Products */ = {
+		08404D491E30D57C0081DB88 /* Map */ = {
 			isa = PBXGroup;
 			children = (
-				08404CD81E3095730081DB88 /* ArchFeatureKit.framework */,
-				08404CDA1E3095730081DB88 /* ArchFeatureKitTests.xctest */,
+				08404D4A1E30D5A30081DB88 /* RestaurantLocator.swift */,
 			);
-			name = Products;
+			path = Map;
+			sourceTree = "<group>";
+		};
+		08404DBA1E30DC0C0081DB88 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				08404DE31E30DCD90081DB88 /* AppleMapPackage */,
+				08404DF11E30DCD90081DB88 /* AppleMapPackageTests */,
+				08404DC11E30DCAA0081DB88 /* AutoNaviPackage */,
+				08404DCF1E30DCAA0081DB88 /* AutoNaviPackageTests */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		08404DC11E30DCAA0081DB88 /* AutoNaviPackage */ = {
+			isa = PBXGroup;
+			children = (
+				08404DC21E30DCAA0081DB88 /* AutoNaviPackage.h */,
+				08404DC41E30DCAA0081DB88 /* Info.plist */,
+			);
+			name = AutoNaviPackage;
+			path = ../AutoNaviPackage;
+			sourceTree = "<group>";
+		};
+		08404DCF1E30DCAA0081DB88 /* AutoNaviPackageTests */ = {
+			isa = PBXGroup;
+			children = (
+				08404DD01E30DCAA0081DB88 /* AutoNaviPackageTests.swift */,
+				08404DD21E30DCAA0081DB88 /* Info.plist */,
+			);
+			name = AutoNaviPackageTests;
+			path = ../AutoNaviPackageTests;
+			sourceTree = "<group>";
+		};
+		08404DE31E30DCD90081DB88 /* AppleMapPackage */ = {
+			isa = PBXGroup;
+			children = (
+				08404DE41E30DCD90081DB88 /* AppleMapPackage.h */,
+				08404DE61E30DCD90081DB88 /* Info.plist */,
+			);
+			name = AppleMapPackage;
+			path = ../AppleMapPackage;
+			sourceTree = "<group>";
+		};
+		08404DF11E30DCD90081DB88 /* AppleMapPackageTests */ = {
+			isa = PBXGroup;
+			children = (
+				08404DF21E30DCD90081DB88 /* AppleMapPackageTests.swift */,
+				08404DF41E30DCD90081DB88 /* Info.plist */,
+			);
+			name = AppleMapPackageTests;
+			path = ../AppleMapPackageTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08404DBD1E30DCAA0081DB88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08404DC31E30DCAA0081DB88 /* AutoNaviPackage.h in Headers */,
+				08404DE51E30DCD90081DB88 /* AppleMapPackage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08404DDF1E30DCD90081DB88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		08404C591E2E258E0081DB88 /* ArchApp */ = {
@@ -156,10 +328,13 @@
 				08404C561E2E258E0081DB88 /* Sources */,
 				08404C571E2E258E0081DB88 /* Frameworks */,
 				08404C581E2E258E0081DB88 /* Resources */,
+				08404D671E30D5D50081DB88 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				08404DD41E30DCAA0081DB88 /* PBXTargetDependency */,
+				08404DF61E30DCD90081DB88 /* PBXTargetDependency */,
 			);
 			name = ArchApp;
 			productName = ArchApp;
@@ -184,6 +359,80 @@
 			productReference = 08404C6E1E2E258E0081DB88 /* ArchAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		08404DBF1E30DCAA0081DB88 /* AutoNaviPackage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08404DD71E30DCAA0081DB88 /* Build configuration list for PBXNativeTarget "AutoNaviPackage" */;
+			buildPhases = (
+				08404DBB1E30DCAA0081DB88 /* Sources */,
+				08404DBC1E30DCAA0081DB88 /* Frameworks */,
+				08404DBD1E30DCAA0081DB88 /* Headers */,
+				08404DBE1E30DCAA0081DB88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoNaviPackage;
+			productName = AutoNaviPackage;
+			productReference = 08404DC01E30DCAA0081DB88 /* AutoNaviPackage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		08404DC81E30DCAA0081DB88 /* AutoNaviPackageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08404DDA1E30DCAA0081DB88 /* Build configuration list for PBXNativeTarget "AutoNaviPackageTests" */;
+			buildPhases = (
+				08404DC51E30DCAA0081DB88 /* Sources */,
+				08404DC61E30DCAA0081DB88 /* Frameworks */,
+				08404DC71E30DCAA0081DB88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08404DCC1E30DCAA0081DB88 /* PBXTargetDependency */,
+				08404DCE1E30DCAA0081DB88 /* PBXTargetDependency */,
+			);
+			name = AutoNaviPackageTests;
+			productName = AutoNaviPackageTests;
+			productReference = 08404DC91E30DCAA0081DB88 /* AutoNaviPackageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08404DE11E30DCD90081DB88 /* AppleMapPackage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08404DF91E30DCD90081DB88 /* Build configuration list for PBXNativeTarget "AppleMapPackage" */;
+			buildPhases = (
+				08404DDD1E30DCD90081DB88 /* Sources */,
+				08404DDE1E30DCD90081DB88 /* Frameworks */,
+				08404DDF1E30DCD90081DB88 /* Headers */,
+				08404DE01E30DCD90081DB88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleMapPackage;
+			productName = AppleMapPackage;
+			productReference = 08404DE21E30DCD90081DB88 /* AppleMapPackage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		08404DEA1E30DCD90081DB88 /* AppleMapPackageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08404DFC1E30DCD90081DB88 /* Build configuration list for PBXNativeTarget "AppleMapPackageTests" */;
+			buildPhases = (
+				08404DE71E30DCD90081DB88 /* Sources */,
+				08404DE81E30DCD90081DB88 /* Frameworks */,
+				08404DE91E30DCD90081DB88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08404DEE1E30DCD90081DB88 /* PBXTargetDependency */,
+				08404DF01E30DCD90081DB88 /* PBXTargetDependency */,
+			);
+			name = AppleMapPackageTests;
+			productName = AppleMapPackageTests;
+			productReference = 08404DEB1E30DCD90081DB88 /* AppleMapPackageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,6 +447,20 @@
 						CreatedOnToolsVersion = 7.3;
 					};
 					08404C6D1E2E258E0081DB88 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 08404C591E2E258E0081DB88;
+					};
+					08404DBF1E30DCAA0081DB88 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					08404DC81E30DCAA0081DB88 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 08404C591E2E258E0081DB88;
+					};
+					08404DE11E30DCD90081DB88 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					08404DEA1E30DCD90081DB88 = {
 						CreatedOnToolsVersion = 7.3;
 						TestTargetID = 08404C591E2E258E0081DB88;
 					};
@@ -216,10 +479,6 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 08404CD31E3095730081DB88 /* Products */;
-					ProjectRef = 08404CD21E3095730081DB88 /* ArchFeatureKit.xcodeproj */;
-				},
-				{
 					ProductGroup = 08404CA61E3090BB0081DB88 /* Products */;
 					ProjectRef = 08404CA51E3090BB0081DB88 /* ArchFoundationKit.xcodeproj */;
 				},
@@ -228,6 +487,10 @@
 			targets = (
 				08404C591E2E258E0081DB88 /* ArchApp */,
 				08404C6D1E2E258E0081DB88 /* ArchAppTests */,
+				08404DBF1E30DCAA0081DB88 /* AutoNaviPackage */,
+				08404DC81E30DCAA0081DB88 /* AutoNaviPackageTests */,
+				08404DE11E30DCD90081DB88 /* AppleMapPackage */,
+				08404DEA1E30DCD90081DB88 /* AppleMapPackageTests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,20 +508,6 @@
 			fileType = wrapper.cfbundle;
 			path = ArchFoundationKitTests.xctest;
 			remoteRef = 08404CAC1E3090BB0081DB88 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		08404CD81E3095730081DB88 /* ArchFeatureKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ArchFeatureKit.framework;
-			remoteRef = 08404CD71E3095730081DB88 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		08404CDA1E3095730081DB88 /* ArchFeatureKitTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ArchFeatureKitTests.xctest;
-			remoteRef = 08404CD91E3095730081DB88 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -281,6 +530,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		08404DBE1E30DCAA0081DB88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08404DC71E30DCAA0081DB88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08404DE01E30DCD90081DB88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08404DE91E30DCD90081DB88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -290,6 +567,7 @@
 			files = (
 				08404C601E2E258E0081DB88 /* ViewController.swift in Sources */,
 				08404C5E1E2E258E0081DB88 /* AppDelegate.swift in Sources */,
+				08404D4B1E30D5A30081DB88 /* RestaurantLocator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +579,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		08404DBB1E30DCAA0081DB88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08404DC51E30DCAA0081DB88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08404DD11E30DCAA0081DB88 /* AutoNaviPackageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08404DDD1E30DCD90081DB88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08404DE71E30DCD90081DB88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08404DF31E30DCD90081DB88 /* AppleMapPackageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -308,6 +616,36 @@
 			isa = PBXTargetDependency;
 			target = 08404C591E2E258E0081DB88 /* ArchApp */;
 			targetProxy = 08404C6F1E2E258E0081DB88 /* PBXContainerItemProxy */;
+		};
+		08404DCC1E30DCAA0081DB88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08404DBF1E30DCAA0081DB88 /* AutoNaviPackage */;
+			targetProxy = 08404DCB1E30DCAA0081DB88 /* PBXContainerItemProxy */;
+		};
+		08404DCE1E30DCAA0081DB88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08404C591E2E258E0081DB88 /* ArchApp */;
+			targetProxy = 08404DCD1E30DCAA0081DB88 /* PBXContainerItemProxy */;
+		};
+		08404DD41E30DCAA0081DB88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08404DBF1E30DCAA0081DB88 /* AutoNaviPackage */;
+			targetProxy = 08404DD31E30DCAA0081DB88 /* PBXContainerItemProxy */;
+		};
+		08404DEE1E30DCD90081DB88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08404DE11E30DCD90081DB88 /* AppleMapPackage */;
+			targetProxy = 08404DED1E30DCD90081DB88 /* PBXContainerItemProxy */;
+		};
+		08404DF01E30DCD90081DB88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08404C591E2E258E0081DB88 /* ArchApp */;
+			targetProxy = 08404DEF1E30DCD90081DB88 /* PBXContainerItemProxy */;
+		};
+		08404DF61E30DCD90081DB88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08404DE11E30DCD90081DB88 /* AppleMapPackage */;
+			targetProxy = 08404DF51E30DCD90081DB88 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -460,6 +798,130 @@
 			};
 			name = Release;
 		};
+		08404DD81E30DCAA0081DB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AutoNaviPackage/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sapient.AutoNaviPackage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		08404DD91E30DCAA0081DB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AutoNaviPackage/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sapient.AutoNaviPackage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		08404DDB1E30DCAA0081DB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AutoNaviPackageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sapient.AutoNaviPackageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArchApp.app/ArchApp";
+			};
+			name = Debug;
+		};
+		08404DDC1E30DCAA0081DB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AutoNaviPackageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sapient.AutoNaviPackageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArchApp.app/ArchApp";
+			};
+			name = Release;
+		};
+		08404DFA1E30DCD90081DB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AppleMapPackage/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sapient.AppleMapPackage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		08404DFB1E30DCD90081DB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AppleMapPackage/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sapient.AppleMapPackage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		08404DFD1E30DCD90081DB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AppleMapPackageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sapient.AppleMapPackageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArchApp.app/ArchApp";
+			};
+			name = Debug;
+		};
+		08404DFE1E30DCD90081DB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AppleMapPackageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sapient.AppleMapPackageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArchApp.app/ArchApp";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -485,6 +947,38 @@
 			buildConfigurations = (
 				08404C7B1E2E258E0081DB88 /* Debug */,
 				08404C7C1E2E258E0081DB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		08404DD71E30DCAA0081DB88 /* Build configuration list for PBXNativeTarget "AutoNaviPackage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08404DD81E30DCAA0081DB88 /* Debug */,
+				08404DD91E30DCAA0081DB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		08404DDA1E30DCAA0081DB88 /* Build configuration list for PBXNativeTarget "AutoNaviPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08404DDB1E30DCAA0081DB88 /* Debug */,
+				08404DDC1E30DCAA0081DB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		08404DF91E30DCD90081DB88 /* Build configuration list for PBXNativeTarget "AppleMapPackage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08404DFA1E30DCD90081DB88 /* Debug */,
+				08404DFB1E30DCD90081DB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		08404DFC1E30DCD90081DB88 /* Build configuration list for PBXNativeTarget "AppleMapPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08404DFD1E30DCD90081DB88 /* Debug */,
+				08404DFE1E30DCD90081DB88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

@@ -4,10 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AppleMapPackage.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>ArchApp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>AutoNaviMap.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>AutoNaviPackage.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -18,6 +33,56 @@
 			<true/>
 		</dict>
 		<key>08404C6D1E2E258E0081DB88</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>08404D501E30D5D50081DB88</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>08404D591E30D5D50081DB88</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>08404D731E30D6290081DB88</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>08404D7C1E30D62A0081DB88</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>08404D971E30D6960081DB88</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>08404DA01E30D6960081DB88</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>08404DBF1E30DCAA0081DB88</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>08404DC81E30DCAA0081DB88</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>08404DE11E30DCD90081DB88</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>08404DEA1E30DCD90081DB88</key>
 		<dict>
 			<key>primary</key>
 			<true/>

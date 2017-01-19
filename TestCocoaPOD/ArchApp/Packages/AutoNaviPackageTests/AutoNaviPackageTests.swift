@@ -1,15 +1,15 @@
 //
-//  ArchFeatureKitTests.swift
-//  ArchFeatureKitTests
+//  AutoNaviPackageTests.swift
+//  AutoNaviPackageTests
 //
 //  Created by Yogender Garg on 1/19/17.
 //  Copyright © 2017 Sapient. All rights reserved.
 //
 
 import XCTest
-@testable import ArchFeatureKit
+@testable import AutoNaviPackage
 
-class ArchFeatureKitTests: XCTestCase {
+class AutoNaviPackageTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

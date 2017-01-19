@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08404C8B1E2F76DA0081DB88 /* ArchFoundationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 08404C8A1E2F76DA0081DB88 /* ArchFoundationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08404C921E2F76DA0081DB88 /* ArchFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08404C871E2F76DA0081DB88 /* ArchFoundationKit.framework */; };
 		08404C971E2F76DA0081DB88 /* ArchFoundationKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08404C961E2F76DA0081DB88 /* ArchFoundationKitTests.swift */; };
+		08404CDD1E30CACC0081DB88 /* McDMapViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08404CDC1E30CACC0081DB88 /* McDMapViewProtocol.swift */; };
+		08404D1B1E30CCA10081DB88 /* McDMapViewProtocol.swift in Headers */ = {isa = PBXBuildFile; fileRef = 08404CDC1E30CACC0081DB88 /* McDMapViewProtocol.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		08404DB91E30D7B10081DB88 /* McDPaymentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08404DB81E30D7B10081DB88 /* McDPaymentProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		08404C911E2F76DA0081DB88 /* ArchFoundationKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchFoundationKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08404C961E2F76DA0081DB88 /* ArchFoundationKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchFoundationKitTests.swift; sourceTree = "<group>"; };
 		08404C981E2F76DA0081DB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08404CDC1E30CACC0081DB88 /* McDMapViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McDMapViewProtocol.swift; sourceTree = "<group>"; };
+		08404DB81E30D7B10081DB88 /* McDPaymentProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McDPaymentProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 		08404C891E2F76DA0081DB88 /* ArchFoundationKit */ = {
 			isa = PBXGroup;
 			children = (
+				08404DB71E30D7760081DB88 /* PaymentKit */,
+				08404CDB1E30CA7C0081DB88 /* MapKit */,
 				08404C8A1E2F76DA0081DB88 /* ArchFoundationKit.h */,
 				08404C8C1E2F76DA0081DB88 /* Info.plist */,
 			);
@@ -86,6 +92,22 @@
 			path = ArchFoundationKitTests;
 			sourceTree = "<group>";
 		};
+		08404CDB1E30CA7C0081DB88 /* MapKit */ = {
+			isa = PBXGroup;
+			children = (
+				08404CDC1E30CACC0081DB88 /* McDMapViewProtocol.swift */,
+			);
+			path = MapKit;
+			sourceTree = "<group>";
+		};
+		08404DB71E30D7760081DB88 /* PaymentKit */ = {
+			isa = PBXGroup;
+			children = (
+				08404DB81E30D7B10081DB88 /* McDPaymentProtocol.swift */,
+			);
+			path = PaymentKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +115,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08404C8B1E2F76DA0081DB88 /* ArchFoundationKit.h in Headers */,
+				08404D1B1E30CCA10081DB88 /* McDMapViewProtocol.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +216,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08404CDD1E30CACC0081DB88 /* McDMapViewProtocol.swift in Sources */,
+				08404DB91E30D7B10081DB88 /* McDPaymentProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +334,7 @@
 		08404C9C1E2F76DA0081DB88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -320,12 +345,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sapient.ArchFoundationKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		08404C9D1E2F76DA0081DB88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -378,6 +405,7 @@
 				08404C9D1E2F76DA0081DB88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08404C9E1E2F76DA0081DB88 /* Build configuration list for PBXNativeTarget "ArchFoundationKitTests" */ = {
 			isa = XCConfigurationList;
@@ -386,6 +414,7 @@
 				08404CA01E2F76DA0081DB88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -38,6 +38,36 @@
                ReferencedContainer = "container:ArchApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "08404D591E30D5D50081DB88"
+               BuildableName = "AutoNaviMapTests.xctest"
+               BlueprintName = "AutoNaviMapTests"
+               ReferencedContainer = "container:ArchApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "08404D7C1E30D62A0081DB88"
+               BuildableName = "AutoNaviPackageTests.xctest"
+               BlueprintName = "AutoNaviPackageTests"
+               ReferencedContainer = "container:ArchApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "08404DA01E30D6960081DB88"
+               BuildableName = "AppleMapPackageTests.xctest"
+               BlueprintName = "AppleMapPackageTests"
+               ReferencedContainer = "container:ArchApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
